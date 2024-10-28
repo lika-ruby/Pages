@@ -1,0 +1,103 @@
+.products {
+    padding: 126px 0 150px;
+
+    &__title {
+        color: $dark-accent-bg-color;
+        text-align: center;
+        font-family: Cardo;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 23px;
+    }
+
+    &__line {
+        width: 50px;
+        height: 3px;
+        background-color: $accent-color;
+        margin: 0 auto 70px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__photo {
+        width: 285px;
+        height: 382px;
+    }
+
+    &__subtitle {
+        color: $dark-accent-bg-color;
+        font-family: Cardo;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.32px;
+        margin-bottom: 7px;
+    }
+
+    &__cost {
+        color: $accent-color;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 1.57;
+        margin-bottom: 17px;
+    }
+
+    &__text {
+        color: $second-accent-text-color;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 13px;
+    }
+
+    &__status {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 27px;
+    }
+
+    &__dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: $accent-color;
+    }
+
+    &__desc {
+        color: $dark-accent-bg-color;
+        font-family: Cardo;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    &__btn {
+        color: $dark-accent-bg-color;
+        font-family: Cardo;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.38px;
+        padding: 18px 52px;
+        border: 2px solid $accent-color;
+        background-color: transparent;
+        transition: all $transition;
+
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+            transition: all $transition;
+        }
+    }
+}
