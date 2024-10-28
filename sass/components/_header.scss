@@ -1,0 +1,119 @@
+.header {
+    padding: 20px 0;
+    background-color: $dark-accent-bg-color;
+
+    &__cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+
+    &__logo {
+        display: flex;
+        gap: 11px;
+
+        &-icon {
+            fill: $accent-color;
+        }
+
+        &-name {
+            fill: $bg-color;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__social {
+        width: 45px;
+        height: 45px;
+        background-color: $bg-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all $transition;
+
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+            transition: all $transition;
+        }
+    }
+
+    &__icon {
+        fill: $dark-accent-bg-color;
+    }
+
+    &__right {
+        display: flex;
+        gap: 39px;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        gap: 48px;
+    }
+
+    &__link {
+        color: $light-accent-bg-color;
+        font-family: Inter;
+        font-size: 17px;
+        line-height: 1.5;
+        letter-spacing: 0.17px;
+        transition: all $transition;
+
+        &:hover,
+        &:focus {
+            color: $accent-color;
+            transition: all $transition;
+        }
+    }
+
+    &__btns {
+        display: flex;
+        gap: 51px;
+        align-items: center;
+    }
+
+    &__basket {
+        background-color: transparent;
+    }
+
+    &__svg {
+        fill: $light-accent-bg-color;
+        transition: all $transition;
+
+        &:hover,
+        &:focus {
+            fill: $accent-color;
+            transition: all $transition;
+        }
+    }
+
+    &__btn {
+        color: $dark-accent-bg-color;
+        font-family: Cardo;
+        font-size: 19px;
+        line-height: 1.5;
+        letter-spacing: 0.57px;
+        padding: 18px 52px;
+        background-color: $accent-color;
+        transition: all $transition;
+
+        &:hover,
+        &:focus {
+            background-color: $hover-color;
+            transition: all $transition;
+        }
+    }
+
+}

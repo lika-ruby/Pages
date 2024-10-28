@@ -1,0 +1,14 @@
+*::selection {
+    background-color: $accent-color;
+    color: $text-color;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    position: relative;
+}

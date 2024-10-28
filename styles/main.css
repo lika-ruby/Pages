@@ -32,9 +32,125 @@ img {
   height: 100%;
 }
 
+*::-moz-selection {
+  background-color: #FFCA42;
+  color: #fff;
+}
+
+*::selection {
+  background-color: #FFCA42;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  position: relative;
+}
+
 .container {
   width: 1340px;
   padding: 0 20px;
   margin: 0 auto;
   outline: red dashed;
+}
+
+.header {
+  padding: 20px 0;
+  background-color: #1B3764;
+}
+.header__cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__left {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  gap: 11px;
+}
+.header__logo-icon {
+  fill: #FFCA42;
+}
+.header__logo-name {
+  fill: #fff;
+}
+.header__socials {
+  display: flex;
+  gap: 10px;
+}
+.header__social {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease-in-out;
+}
+.header__social:hover, .header__social:focus {
+  background-color: #FFCA42;
+  transition: all 500ms ease-in-out;
+}
+.header__icon {
+  fill: #1B3764;
+}
+.header__right {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  gap: 48px;
+}
+.header__link {
+  color: #F4F8FF;
+  font-family: Inter;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0.17px;
+  transition: all 500ms ease-in-out;
+}
+.header__link:hover, .header__link:focus {
+  color: #FFCA42;
+  transition: all 500ms ease-in-out;
+}
+.header__btns {
+  display: flex;
+  gap: 51px;
+  align-items: center;
+}
+.header__basket {
+  background-color: transparent;
+}
+.header__svg {
+  fill: #F4F8FF;
+  transition: all 500ms ease-in-out;
+}
+.header__svg:hover, .header__svg:focus {
+  fill: #FFCA42;
+  transition: all 500ms ease-in-out;
+}
+.header__btn {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 19px;
+  line-height: 1.5;
+  letter-spacing: 0.57px;
+  padding: 18px 52px;
+  background-color: #FFCA42;
+  transition: all 500ms ease-in-out;
+}
+.header__btn:hover, .header__btn:focus {
+  background-color: #FFAD42;
+  transition: all 500ms ease-in-out;
 }/*# sourceMappingURL=main.css.map */
