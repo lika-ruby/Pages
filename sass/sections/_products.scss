@@ -6,7 +6,7 @@
         text-align: center;
         font-family: Cardo;
         font-size: 42px;
-        font-weight: 400;
+
         line-height: 1.2;
         margin-bottom: 23px;
     }
@@ -32,13 +32,14 @@
     &__photo {
         width: 285px;
         height: 382px;
+        box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.20);
     }
 
     &__subtitle {
         color: $dark-accent-bg-color;
         font-family: Cardo;
         font-size: 32px;
-        font-weight: 400;
+
         line-height: 1.2;
         letter-spacing: 0.32px;
         margin-bottom: 7px;
@@ -47,7 +48,7 @@
     &__cost {
         color: $accent-color;
         font-size: 21px;
-        font-weight: 400;
+
         line-height: 1.57;
         margin-bottom: 17px;
     }
@@ -55,7 +56,7 @@
     &__text {
         color: $second-accent-text-color;
         font-size: 19px;
-        font-weight: 400;
+
         line-height: 1.5;
         margin-bottom: 13px;
     }
@@ -78,7 +79,7 @@
         color: $dark-accent-bg-color;
         font-family: Cardo;
         font-size: 24px;
-        font-weight: 400;
+
         line-height: 1.2;
     }
 
@@ -86,7 +87,7 @@
         color: $dark-accent-bg-color;
         font-family: Cardo;
         font-size: 19px;
-        font-weight: 400;
+
         line-height: 1.5;
         letter-spacing: 0.38px;
         padding: 18px 52px;

@@ -48,7 +48,6 @@ html {
 
 body {
   font-family: Inter;
-  font-weight: 400;
   position: relative;
 }
 
@@ -178,7 +177,6 @@ body {
   color: #fff;
   font-family: Cardo;
   font-size: 21px;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 1.2px;
 }
@@ -186,7 +184,6 @@ body {
   color: #fff;
   font-family: Cardo;
   font-size: 64px;
-  font-weight: 400;
   line-height: 1.22;
   letter-spacing: 1.3px;
   margin-bottom: 24px;
@@ -194,7 +191,6 @@ body {
 .hero__text {
   color: #B4C7E7;
   font-size: 18px;
-  font-weight: 400;
   line-height: 1.58;
   width: 544px;
   margin-bottom: 42px;
@@ -209,7 +205,6 @@ body {
   color: #1B3764;
   font-family: Cardo;
   font-size: 19px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.57px;
   padding: 18px 52px;
@@ -224,7 +219,6 @@ body {
   color: #fff;
   font-family: Cardo;
   font-size: 19px;
-  font-weight: 400;
   line-height: 1.6;
   letter-spacing: 0.38px;
   position: relative;
@@ -270,7 +264,6 @@ body {
   color: #fff;
   font-family: Cardo;
   font-size: 24px;
-  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.48px;
   margin-bottom: 12px;
@@ -278,7 +271,6 @@ body {
 .hero__info {
   color: #B4C7E7;
   font-size: 17px;
-  font-weight: 400;
   line-height: 1.59;
 }
 .hero__photo {
@@ -295,7 +287,6 @@ body {
   text-align: center;
   font-family: Cardo;
   font-size: 42px;
-  font-weight: 400;
   line-height: 1.2;
   margin-bottom: 23px;
 }
@@ -317,12 +308,12 @@ body {
 .products__photo {
   width: 285px;
   height: 382px;
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.2);
 }
 .products__subtitle {
   color: #1B3764;
   font-family: Cardo;
   font-size: 32px;
-  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.32px;
   margin-bottom: 7px;
@@ -330,14 +321,12 @@ body {
 .products__cost {
   color: #FFCA42;
   font-size: 21px;
-  font-weight: 400;
   line-height: 1.57;
   margin-bottom: 17px;
 }
 .products__text {
   color: #969AA0;
   font-size: 19px;
-  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 13px;
 }
@@ -357,14 +346,12 @@ body {
   color: #1B3764;
   font-family: Cardo;
   font-size: 24px;
-  font-weight: 400;
   line-height: 1.2;
 }
 .products__btn {
   color: #1B3764;
   font-family: Cardo;
   font-size: 19px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.38px;
   padding: 18px 52px;
@@ -375,4 +362,106 @@ body {
 .products__btn:hover, .products__btn:focus {
   background-color: #FFCA42;
   transition: all 500ms ease-in-out;
+}
+
+.about {
+  padding: 180px 140px;
+  background-color: #F4F8FF;
+}
+.about__cont {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.about__content {
+  width: 545px;
+  height: 640px;
+  border: 10px solid #FFCA42;
+  position: relative;
+}
+.about__photo {
+  position: absolute;
+  left: -40px;
+  top: -40px;
+  box-shadow: 0px 0px 20px 0px rgba(27, 55, 100, 0.3);
+}
+.about__right {
+  max-width: 605px;
+}
+.about__title {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 23px;
+}
+.about__underline {
+  width: 50px;
+  height: 3px;
+  background: #FFCA42;
+  margin-bottom: 33px;
+}
+.about__text {
+  color: #969AA0;
+  font-size: 19px;
+  line-height: 1.8;
+  margin-bottom: 34px;
+}
+.about__list {
+  display: flex;
+  margin-bottom: 55px;
+}
+.about__advan {
+  width: 181px;
+}
+.about__subtitle {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 54px;
+  line-height: 1.43;
+}
+.about__desc {
+  color: #969AA0;
+  font-size: 17px;
+  line-height: 1.27;
+}
+.about__line {
+  width: 1px;
+  height: 98px;
+  background-color: #FFCA42;
+  margin-right: 25px;
+}
+.about__user {
+  background: #1B3764;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 484px;
+}
+.about__qrcode {
+  width: 130px;
+  height: 130px;
+}
+.about__username {
+  color: #FFCA42;
+  font-family: Cardo;
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.about__constacts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.about__contact {
+  display: flex;
+  gap: 10px;
+}
+.about__name, .about__link {
+  color: #B4C7E7;
+  font-size: 18px;
+  line-height: 1.58;
+  letter-spacing: 0.19px;
 }/*# sourceMappingURL=main.css.map */
