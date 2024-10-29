@@ -554,4 +554,70 @@ body {
 .order__photo {
   width: 560px;
   height: 394px;
+}
+
+.advan {
+  padding: 140px 0;
+}
+.advan__title {
+  color: #1B3764;
+  text-align: center;
+  font-family: Cardo;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 23px;
+}
+.advan__line {
+  width: 50px;
+  height: 3px;
+  background-color: #FFCA42;
+  margin: 0 auto 90px;
+}
+.advan__cont {
+  display: flex;
+  align-items: center;
+  gap: 109px;
+}
+.advan__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 638px;
+}
+.advan__item {
+  background-color: #F4F8FF;
+  padding: 30px;
+}
+.advan__number {
+  background-color: #FFCA42;
+  padding: 8px 13px 13px;
+  border-radius: 50%;
+  max-width: 50px;
+  margin-bottom: 30px;
+}
+.advan__desc {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 23px;
+  line-height: 1.25;
+}
+.advan__info {
+  max-width: 243px;
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.advan__content {
+  width: 555px;
+  height: 652px;
+  border: 10px solid #FFCA42;
+  position: relative;
+}
+.advan__photo {
+  width: 535px;
+  height: 632px;
+  position: absolute;
+  left: -30px;
+  top: -30px;
 }/*# sourceMappingURL=main.css.map */

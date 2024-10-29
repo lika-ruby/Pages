@@ -1,0 +1,76 @@
+.advan {
+    padding: 140px 0;
+
+    &__title {
+        color: $dark-accent-bg-color;
+        text-align: center;
+        font-family: Cardo;
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 23px;
+    }
+
+    &__line {
+        width: 50px;
+        height: 3px;
+        background-color: $accent-color;
+        margin: 0 auto 90px;
+    }
+
+
+    &__cont {
+        display: flex;
+        align-items: center;
+        gap: 109px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 638px;
+    }
+
+    &__item {
+        background-color: $light-accent-bg-color;
+        padding: 30px;
+    }
+
+    &__number {
+        background-color: $accent-color;
+        padding: 8px 13px 13px;
+        border-radius: 50%;
+        max-width: 50px;
+        margin-bottom: 30px;
+    }
+
+    &__desc {
+        color: $dark-accent-bg-color;
+        font-family: Cardo;
+        font-size: 23px;
+        line-height: 1.25;
+    }
+
+    &__info {
+        max-width: 243px;
+        color: $dark-accent-bg-color;
+        font-family: Cardo;
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    &__content {
+        width: 555px;
+        height: 652px;
+        border: 10px solid $accent-color;
+        position: relative;
+    }
+
+    &__photo {
+        width: 535px;
+        height: 632px;
+        position: absolute;
+        left: -30px;
+        top: -30px;
+    }
+}
