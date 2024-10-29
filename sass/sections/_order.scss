@@ -1,0 +1,55 @@
+.order {
+    padding: 70px 0;
+    background-color: $dark-accent-bg-color;
+
+    &__cont {
+        display: flex;
+        align-items: center;
+        gap: 228px;
+    }
+
+    &__title {
+        color: $text-color;
+        font-family: Cardo;
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 24px;
+    }
+
+    &__line {
+        width: 50px;
+        height: 3px;
+        background-color: $accent-color;
+        margin-bottom: 27px;
+    }
+
+    &__text {
+        color: $first-accent-text-color;
+        font-size: 19px;
+        line-height: 1.5;
+        margin-bottom: 27px;
+    }
+
+    &__btn {
+        color: $text-color;
+        font-family: Cardo;
+        font-size: 19px;
+        line-height: 1.5;
+        letter-spacing: 0.38px;
+        padding: 18px 52px;
+        border: 2px solid $accent-color;
+        background-color: transparent;
+        transition: all $transition;
+
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+            transition: all $transition;
+        }
+    }
+
+    &__photo {
+        width: 560px;
+        height: 394px;
+    }
+}
